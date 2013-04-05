@@ -30,6 +30,7 @@ Bundle 'danro/rename.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
 Bundle 'nanki/treetop.vim'
+Bundle 'scrooloose/syntastic'
 Bundle 'thoughtbot/vim-rspec'
 Bundle 'timcharper/textile.vim'
 Bundle 'tpope/vim-cucumber'
@@ -133,6 +134,10 @@ au BufRead,BufNewFile *.md setlocal spell
 
 " Automatically wrap at 80 characters for Markdown
 au BufRead,BufNewFile *.md setlocal textwidth=80
+
+" configure syntastic syntax checking
+let g:syntastic_check_on_open=1
+let g:syntastic_enable_highlighting=0
 
 " Local config
 if filereadable($HOME . "/.vimrc.local")
