@@ -9,24 +9,37 @@ Bundle 'gmarik/vundle'
 
 " Define bundles via Github repos
 Bundle 'croaky/vim-colors-github'
-Bundle 'danro/rename.vim'
-Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
-Bundle 'nanki/treetop.vim'
-Bundle 'thoughtbot/vim-rspec'
-Bundle 'timcharper/textile.vim'
-Bundle 'tpope/vim-bundler'
-Bundle 'tpope/vim-cucumber'
-Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-haml'
-Bundle 'tpope/vim-markdown'
-Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-surround'
-Bundle 'tsaleh/vim-matchit'
+" Bundle 'scrooloose/nerdtree'
+
 Bundle 'vim-scripts/ctags.vim'
+" Bundle 'mileszs/ack.vim'
+
+Bundle 'danro/rename.vim'
+Bundle 'tsaleh/vim-matchit'
 Bundle 'vim-scripts/greplace.vim'
 Bundle 'vim-scripts/tComment'
+" Bundle 'ddollar/nerdcommenter'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-endwise'
+
+" Gutter plugins
+" Bundle 'jisaacks/GitGutter'
+" Bundle 'scrooloose/syntastic'
+
+" Syntax highlighting bundles
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'nanki/treetop.vim'
+Bundle 'timcharper/textile.vim'
+Bundle 'tpope/vim-cucumber'
+Bundle 'tpope/vim-haml'
+Bundle 'tpope/vim-markdown'
 Bundle 'xenoterracide/html.vim'
+
+" Ruby/Rails specific bundles
+Bundle 'tpope/vim-rails'
+Bundle 'thoughtbot/vim-rspec'
+Bundle 'tpope/vim-bundler'
 
 filetype on

@@ -30,6 +30,7 @@
     a = !git add . && git status
     r = reset
     c = commit
+    ca = commit --amend
     p = push
     l = log --graph --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
     ll = log --stat --abbrev-commit

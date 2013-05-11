@@ -181,20 +181,27 @@ main() {
     install_pkg "build-essential"
 
     # GnuPG archive keys of the Debian archive
-    install_pkg "debian-archive-keyring"
+    # install_pkg "debian-archive-keyring"
 
     # Software which is not included by default
     # in Ubuntu due to legal or copyright reasons
     #install_pkg "ubuntu-restricted-extras"
 
     install_pkg "curl"
+    install_pkg "git"
     install_pkg "zsh"
     install_pkg "tmux"
     install_pkg "openssh-server"
+
+    install_pkg "i3"
     install_pkg "google-chrome"
-    install_pkg "nodejs" "node"
-    install_pkg "i3-wm"
+
+    install_pkg "ack-grep"
+    install_pkg "ctags"
     install_pkg "sublime-text"
+    install_pkg "vi"
+
+    # install_pkg "nodejs" "node"
 
     # --------------------------------------------------------------------------
     # | Settings                                                               |
