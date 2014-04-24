@@ -44,7 +44,12 @@ plugins=(git sublime rvm rake)
 
 source $ZSH/oh-my-zsh.sh
 
-# Customize to your needs...
-export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+export LC_ALL=en_US.UTF-8  
+export LANG=en_US.UTF-8
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# Customize to your needs...
+export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+# PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
