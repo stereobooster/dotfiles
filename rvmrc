@@ -1,2 +1,0 @@
-# compile optimization http://alisnic.net/blog/making-your-ruby-fly/
-rvm_configure_env=(CFLAGS="-march=native -O2")

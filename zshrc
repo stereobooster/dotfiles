@@ -40,16 +40,21 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git sublime rvm rake)
+plugins=(git sublime rake gem bundler npm osx)
+# per-directory-history github history autojump
 
 source $ZSH/oh-my-zsh.sh
 
-export LC_ALL=en_US.UTF-8  
+export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # Customize to your needs...
 export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
-
-# PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+#:/opt/flex/bin
 
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+
+eval "$(nodenv init -)"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
